@@ -1,0 +1,9 @@
+flowchart TD
+    A[Define Project Objectives and Constraints] --> B[Set Design Variables]
+    B --> C[Create Geometry in COMSOL]
+    C --> D[Assign Material as Air]
+    D --> E[Apply Boundary Conditions]
+    E --> F[Generate Mesh]
+    F --> G[Run Simulation]
+    G --> H[Post-Process Results]
+    H --> I[Display Velocity and Pressure Contours]
